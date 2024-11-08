@@ -1,0 +1,13 @@
+# Ignore all .log files
+*.log
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore environment configuration
+.env
+
+# Ignore directories
+ensemble_results/
+Data/
