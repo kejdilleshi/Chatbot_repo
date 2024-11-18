@@ -104,9 +104,9 @@ def preprocess_data_balanced(examples):
     for dialogue in examples['turns']:
         single_list=extract_singleturn(dialogue)
         dialogues.extend(single_list)
-        if block%4==0:
-            multi_list=extract_multiturn(dialogue,n_turn=4)
-            dialogues.append(multi_list)
+        # if block%4==0:
+        #     multi_list=extract_multiturn(dialogue,n_turn=4)
+        #     dialogues.append(multi_list)
             # sam_text = extract_text_segment(tokens, 256, block, tokenizer)
             # dialogues.append(sam_text)
         # if block%3==0:

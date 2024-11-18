@@ -2,7 +2,7 @@ import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer
 
 # Load the trained model and tokenizer
-model_path="../ensemble_results/ChatBot_7525"
+model_path="../ensemble_results/ChatBot_75-25"
 model = GPT2LMHeadModel.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
@@ -19,17 +19,18 @@ def chat_with_bot(input_text, previous_chat,count):
     if count == 0:
         input_text = f"<|user|> {input_text}<|system|>"
     else:
-        input_text = f"{previous_chat}<|endoftext|><|user|> {input_text}<|system|>"
-
+        input_text = f"{previous_chat}<|endofturn|><|user|> {input_text}<|system|>"
+    
+    print(count, input_text)
     # Encode the input text
     input_ids = tokenizer.encode(input_text, return_tensors="pt").to(device)
 
 
     output = model.generate(
         input_ids,
-        max_length= 512,
-        # max_new_tokens=30,  
-        # num_return_sequences=1,
+        # max_length= 256,
+        max_new_tokens=30,  
+        num_return_sequences=1,
         # no_repeat_ngram_size=2,
         pad_token_id=tokenizer.convert_tokens_to_ids("<|pad|>"),
         # temperature=0.7,  # Controls randomness
@@ -47,6 +48,7 @@ def chat_with_bot(input_text, previous_chat,count):
 
 
 # Chat loop
+# print(tokenizer.special_tokens_map)
 
 print("Start chatting with the bot! Type 'exit' to stop.")
 previous_chat = ""

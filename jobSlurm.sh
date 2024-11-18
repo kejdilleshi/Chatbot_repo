@@ -18,4 +18,4 @@ conda activate NLP
 
 
 # papermill My_chatbot.ipynb My_chatbot_out.ipynb
-python GPT2.py --results_dir "ensemble_results/ChatBot_75-25" 
+python GPT2.py --results_dir "ensemble_results/ChatBot_100-0" 
