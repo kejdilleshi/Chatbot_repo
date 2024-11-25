@@ -52,6 +52,6 @@ class SaveResults:
             print(f"\nDialogue {i + 1}:")
             print("\nInput Sequence:")
             print(decoded_input)
-            print("\nLabel Sequence (Target Output):")
-            print(decoded_labels)
+            # print("\nLabel Sequence (Target Output):")
+            # print(decoded_labels)
             print("-" * 80)

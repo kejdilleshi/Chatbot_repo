@@ -12,9 +12,10 @@ model.eval()
 # Check for GPU
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
+endofturn_token = "<|endofturn|>"
 
 
-def chat_with_bot(input_text, previous_chat,count):
+def chat_with_bot(input_text, previous_chat,count,max_length=256):
     # Encode the input text based on whether it's the first message or not
     if count == 0:
         input_text = f"<|user|> {input_text}<|system|>"
@@ -26,21 +27,16 @@ def chat_with_bot(input_text, previous_chat,count):
     input_ids = tokenizer.encode(input_text, return_tensors="pt").to(device)
 
 
+    # Generate the response
     output = model.generate(
         input_ids,
-        max_new_tokens=30,  # Limit to 30 new tokens
+        max_length=max_length,
         num_return_sequences=1,
-        no_repeat_ngram_size=1,
-        pad_token_id=tokenizer.convert_tokens_to_ids("<|pad|>"),
-        # temperature=0.1,    # Control randomness
-        # top_p=0.9,          # Limit to top 80% most likely words
-        # length_penalty=0.5, # Encourage shorter responses
-        # early_stopping=True,# Stop if end-of-sequence is generated
-        do_sample=False      # Use sampling for more natural responses
+        pad_token_id=tokenizer.pad_token_id,
+        eos_token_id=tokenizer.convert_tokens_to_ids(endofturn_token),
+        top_p=0.9,
+        temperature=0.7,
     )
-
-
-
 
     # Decode the output, skipping special tokens
     response = tokenizer.decode(

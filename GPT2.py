@@ -9,6 +9,7 @@ from transformers import (
 from pynvml import nvmlDeviceGetHandleByIndex, nvmlInit, nvmlDeviceGetMemoryInfo
 
 from datasets import load_dataset
+import json
 # my modules 
 from pipeline import SaveResults, get_args, set_seed
 
@@ -37,9 +38,11 @@ def print_gpu_utilization():
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Training on {device}")
 
-# Load the dataset
+# Load the datasets
 dataset = load_dataset("multi_woz_v22", trust_remote_code=True)
-
+# Open and read the JSON file
+with open('./Data/general_conv.json', 'r') as file:
+    data = json.load(file)
 # Preprocess the dataset
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 # tokenizer = AutoTokenizer.from_pretrained("Data/SamBOT-gpt2")
@@ -62,6 +65,7 @@ def extract_singleturn(dialogue):
             dialogues.append(single_turn)
     return dialogues
 
+
 def extract_multiturn(dialogue,n_turn=4):
     context = ""  # Persistent context across turns
     for id, speaker, utterance in zip(dialogue['turn_id'],dialogue["speaker"], dialogue["utterance"]):
@@ -73,6 +77,16 @@ def extract_multiturn(dialogue,n_turn=4):
                     context += f"<|system|> {utterance.strip()} <|endofturn|>"  # Append system response to context Add endo of text token
                     
     return context
+
+def extract_general(block,data):
+    dialogues=[]
+    dialogue=data[block]
+    if dialogue["speaker"][0] == 0 and dialogue["speaker"][1] == 1:
+        user_utterance = dialogue["utterance"][0].strip()
+        bot_response = dialogue["utterance"][1].strip()
+        single_turn = f"<|user|> {user_utterance} <|system|> {bot_response} <|endofturn|>"
+        dialogues.append(single_turn)
+    return dialogues
 
 def extract_text_segment(tokens, max_length, n, tokenizer):
     start_idx = (n - 1) * max_length
@@ -104,12 +118,18 @@ def preprocess_data_balanced(examples):
     for dialogue in examples['turns']:
         single_list=extract_singleturn(dialogue)
         dialogues.extend(single_list)
-        # if block%4==0:
-        #     multi_list=extract_multiturn(dialogue,n_turn=4)
-        #     dialogues.append(multi_list)
+        # extract general conversations.
+        if block<len(data):
+            general_list=extract_general(block=block,data=data)
+            dialogues.extend(general_list)
+        if block%1==0:
+            multi_list=extract_multiturn(dialogue,n_turn=8)
+            dialogues.append(multi_list)
             # sam_text = extract_text_segment(tokens, 256, block, tokenizer)
             # dialogues.append(sam_text)
-        # if block%3==0:
+        if block%3==0:
+            sam_text = extract_text_segment(tokens, 256, block, tokenizer)
+            dialogues.append(sam_text)
         #     multi_list=extract_multiturn(dialogue,n_turn=8)
         #     dialogues.append(multi_list)
             
@@ -140,13 +160,12 @@ def filter_empty(examples):
 
 tokenized_datasets = tokenized_datasets.filter(filter_empty)
 
-# Visualize the input and output for the first few dialogues
-# SR.print_conversation(tokenized_datasets, tokenizer)
+# # Visualize the input and output for the first few dialogues
+# SR.print_conversation(tokenized_datasets, tokenizer,num_dial=50)
 # exit()
 
 # Load the model
 model = GPT2LMHeadModel.from_pretrained(args.model)
-# model = GPT2LMHeadModel.from_pretrained("Data/SamBOT-gpt2")
 model.resize_token_embeddings(len(tokenizer))
 model.to(device)
 
