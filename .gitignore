@@ -11,3 +11,4 @@ __pycache__/
 # Ignore directories
 ensemble_results/
 Data/
+Notebooks/LLM_Session2/Models/

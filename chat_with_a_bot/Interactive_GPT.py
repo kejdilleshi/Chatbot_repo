@@ -2,7 +2,7 @@ import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer
 
 # Load the trained model and tokenizer
-model_path="../ensemble_results/SamBot_1-1-3"
+model_path="../ensemble_results/ChatBot_1-1-3-XL"
 model = GPT2LMHeadModel.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
@@ -31,11 +31,12 @@ def chat_with_bot(input_text, previous_chat,count,max_length=256):
     output = model.generate(
         input_ids,
         max_length=max_length,
+        # max_new_tokens=30,
+        do_sample=True,    
+        top_p=0.9,
         num_return_sequences=1,
         pad_token_id=tokenizer.pad_token_id,
         eos_token_id=tokenizer.convert_tokens_to_ids(endofturn_token),
-        top_p=0.9,
-        temperature=0.7,
     )
 
     # Decode the output, skipping special tokens

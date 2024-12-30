@@ -1,66 +1,28 @@
 import argparse
 
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Parse glacier evolution model parameters.")
 
-def str2bool(v):
-    """makes a string non-case-sensitive"""
-    return v.lower() in ("true", "1")
+    parser.add_argument('--ttot', type=int, default=1900, 
+                        help='Time limit (yr)')
+    parser.add_argument('--t_start', type=float, default=1880.0, 
+                        help='Start time (yr)')
+    parser.add_argument('--grad_b', type=float, default=0.001, 
+                        help='Mass balance gradient')
+    parser.add_argument('--b_max', type=float, default=1.0, 
+                        help='Maximum precip (m/yr)')
+    parser.add_argument('--Z_ELA', type=float, default=3000.0, 
+                        help='Elevation of equilibrium line altitude (m)')
+    parser.add_argument('--rho', type=float, default=910.0, 
+                        help='Density of ice (kg/m^3)')
+    parser.add_argument('--g', type=float, default=9.81, 
+                        help='Acceleration due to gravity (m/s^2)')
+    parser.add_argument('--fd', type=float, default=1.9e-24, 
+                        help='Flow rate factor (Pa^-3 s^-1)')
+    parser.add_argument('--dx', type=int, default=100, 
+                        help='Grid resolution in x direction (m)')
+    parser.add_argument('--dy', type=int, default=100, 
+                        help='Grid resolution in y direction (m)')
 
-
-def get_args():
-    """
-    read configuration file
-    """
-    parser = argparse.ArgumentParser(description="Transformer chatbot")
-
-    parser.add_argument("--model", type=str, default="gpt2", help="Train a new model")
-
-    parser.add_argument(
-        "--train_new", type=str2bool, default=True, help="Train a new model"
-    )
-    parser.add_argument(
-        "--save_lr", type=str2bool, default=True, help="Plot the learning rate"
-    )
-    parser.add_argument(
-        "--results_dir",
-        type=str,
-        default="results",
-        help="Path of the results folder",
-    )
-    parser.add_argument(
-        "--num_epochs",
-        type=int,
-        default=5,
-        help="number of epochs",
-    )
-    parser.add_argument(
-        "--batch_size",
-        type=int,
-        default=16,
-        help="batch size",
-    )
-    parser.add_argument(
-        "--gradient_accumulation_steps",
-        type=int,
-        default=4,
-        help="gradient_accumulation_steps",
-    )
-    parser.add_argument(
-        "--learning_rate",
-        type=float,
-        default=5e-5,
-        help="learning_rate",
-    )
-    parser.add_argument(
-        "--weight_decay",
-        type=float,
-        default=0.01,
-        help="weight_decay",
-    )
-    parser.add_argument(
-        "--seed", type=int, default=123, help="Seed for reproducibility"
-    )
-
-    # Parse the arguments
     args = parser.parse_args()
-
     return args

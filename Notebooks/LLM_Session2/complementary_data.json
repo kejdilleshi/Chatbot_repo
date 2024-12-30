@@ -1,0 +1,747 @@
+[
+    {"id": 0, "speaker": [0, 1], "utterance": [
+        "Hello! What kind of help can you offer here?", 
+        "Hi there! I provide information about London, including directions, attractions, transportation, and local tips. How can I assist you?"
+    ]},
+    {"id": 1, "speaker": [0, 1], "utterance": [
+        "Hi there! Are you the information guide?", 
+        "That’s right! I’m here to help you navigate London and make the most of your visit. What do you need help with?"
+    ]},
+    {"id": 2, "speaker": [0, 1], "utterance": [
+        "Good day! What services do you provide?", 
+        "Hello! I provide directions, recommendations for attractions, help with public transportation, and local advice. What can I help you with today?"
+    ]},
+    {"id": 3, "speaker": [0, 1], "utterance": [
+        "Hi, can you tell me what this information point is for?", 
+        "Of course! I’m here to answer questions about London, from tourist spots to transit routes. What do you need to know?"
+    ]},
+    {"id": 4, "speaker": [0, 1], "utterance": [
+        "Are you able to answer questions about London?", 
+        "Absolutely! Whether you need directions, recommendations, or general advice, I’ve got you covered. How can I help?"
+    ]},
+    {"id": 5, "speaker": [0, 1], "utterance": [
+        "Hi! What do you know about this area?", 
+        "I know quite a bit! I can guide you to landmarks, restaurants, or anything else you need nearby. What are you looking for?"
+    ]},
+    {"id": 6, "speaker": [0, 1], "utterance": [
+        "Can you explain how this information point works?", 
+        "Sure! I’m here to provide assistance with directions, recommendations, and questions about London. What would you like to know?"
+    ]},
+    {"id": 7, "speaker": [0, 1], "utterance": [
+        "Hello, are you available to answer questions?", 
+        "Definitely! Feel free to ask me about London’s sights, transportation, or anything else you need help with."
+    ]},
+    {"id": 8, "speaker": [0, 1], "utterance": [
+        "Can you help me plan my day in London?", 
+        "Absolutely! Let me know what you’re interested in, and I can recommend some great spots and routes."
+    ]},
+    {"id": 9, "speaker": [0, 1], "utterance": [
+        "What can you tell me about London in general?", 
+        "London is a vibrant city with a rich history, famous landmarks, and endless things to do. What specific information are you looking for?"
+    ]},
+    {"id": 10, "speaker": [0, 1], "utterance": [
+        "Can you help me find the nearest Tube station?", 
+        "Of course! The closest Tube station is just two blocks away on your left. Would you like a map?"
+    ]},
+    {"id": 11, "speaker": [0, 1], "utterance": [
+        "How do I get to Buckingham Palace from here?", 
+        "Head south for about 15 minutes, or you can take the Victoria Line to Green Park Station and walk from there."
+    ]},
+    {"id": 12, "speaker": [0, 1], "utterance": [
+        "Which bus should I take to get to the British Museum?", 
+        "The number 14 bus will take you directly there. You can catch it from the stop just around the corner."
+    ]},
+    {"id": 13, "speaker": [0, 1], "utterance": [
+        "How do I get to Tower Bridge?", 
+        "Take the District Line to Tower Hill Station, then it’s just a short walk from there."
+    ]},
+    {"id": 14, "speaker": [0, 1], "utterance": [
+        "Where can I catch the Thames Clippers?", 
+        "You can catch the Thames Clippers from the Embankment Pier, just a 10-minute walk from here."
+    ]},
+    {"id": 15, "speaker": [0, 1], "utterance": [
+        "What’s the best way to get to Camden Market?", 
+        "The Northern Line will take you straight to Camden Town Station, and the market is just a short walk from there."
+    ]},
+    {"id": 16, "speaker": [0, 1], "utterance": [
+        "How far is it to the London Eye from here?", 
+        "It’s about a 20-minute walk along the Thames. You could also take the Jubilee Line to Waterloo Station."
+    ]},
+    {"id": 17, "speaker": [0, 1], "utterance": [
+        "Can you help me find directions to St. Paul’s Cathedral?", 
+        "Absolutely! Take the Central Line to St. Paul’s Station. It’s right next to the station."
+    ]},
+    {"id": 18, "speaker": [0, 1], "utterance": [
+        "What’s the best way to get to Covent Garden?", 
+        "The Piccadilly Line will take you directly to Covent Garden Station. It’s just a few minutes from here."
+    ]},
+    {"id": 19, "speaker": [0, 1], "utterance": [
+        "Is there a Tube line that goes to the Natural History Museum?", 
+        "Yes, the Piccadilly, District, and Circle Lines all stop at South Kensington Station, which is just a short walk away."
+    ]},
+    {"id": 20, "speaker": [0, 1], "utterance": [
+        "What’s the weather like today in London?", 
+        "It’s sunny with a slight breeze, around 18°C. A perfect day for exploring the city!"
+    ]},
+    {"id": 21, "speaker": [0, 1], "utterance": [
+        "Is it going to rain later today?", 
+        "There’s a 60% chance of rain in the afternoon, so it’s best to bring an umbrella just in case."
+    ]},
+    {"id": 22, "speaker": [0, 1], "utterance": [
+        "Is it cold outside today?", 
+        "It’s quite chilly at 10°C, so I’d recommend wearing a coat and scarf."
+    ]},
+    {"id": 23, "speaker": [0, 1], "utterance": [
+        "How warm is it right now?", 
+        "It’s currently 22°C, so it’s quite pleasant for walking around."
+    ]},
+    {"id": 24, "speaker": [0, 1], "utterance": [
+        "Are there any disruptions on the Tube right now?", 
+        "There’s currently a delay on the Jubilee Line, but all other lines are running smoothly."
+    ]},
+    {"id": 25, "speaker": [0, 1], "utterance": [
+        "When does the Tower of London close today?", 
+        "The Tower of London closes at 5:30 PM today, with last entry at 5:00 PM."
+    ]},
+    {"id": 26, "speaker": [0, 1], "utterance": [
+        "Are there any road closures nearby?", 
+        "Yes, there are some closures near Westminster for a parade. I can suggest alternative routes if needed."
+    ]},
+    {"id": 27, "speaker": [0, 1], "utterance": [
+        "What time does the British Museum open tomorrow?", 
+        "The British Museum opens at 10:00 AM tomorrow."
+    ]},
+    {"id": 28, "speaker": [0, 1], "utterance": [
+        "Is there a weather warning in London today?", 
+        "No weather warnings for today, but it will be windy later in the afternoon."
+    ]},
+    {"id": 29, "speaker": [0, 1], "utterance": [
+        "What’s the best time to visit Trafalgar Square to avoid crowds?", 
+        "Early morning, around 8:00 AM, tends to be the least crowded time."
+    ]},
+    {"id": 30, "speaker": [0, 1], "utterance": [
+        "Are there any West End shows you think I should see?", 
+        "Absolutely! “The Lion King” and “Hamilton” are both excellent options. I can help you find tickets if needed."
+    ]},
+    {"id": 31, "speaker": [0, 1], "utterance": [
+        "Can you recommend a museum nearby?", 
+        "The British Museum is close by and has incredible exhibits. Admission is free!"
+    ]},
+    {"id": 32, "speaker": [0, 1], "utterance": [
+        "What’s a good spot for street art in London?", 
+        "Shoreditch is a fantastic area to explore street art. Don’t miss Brick Lane!"
+    ]},
+    {"id": 33, "speaker": [0, 1], "utterance": [
+        "Are there any festivals happening this week?", 
+        "Yes, the Southbank Centre Winter Festival is ongoing. It’s a great event to check out!"
+    ]},
+    {"id": 34, "speaker": [0, 1], "utterance": [
+        "What’s a hidden gem in London you’d recommend?", 
+        "Neal’s Yard in Covent Garden is a beautiful, colorful courtyard that’s off the beaten path."
+    ]},
+    {"id": 35, "speaker": [0, 1], "utterance": [
+        "Where can I learn about London’s history?", 
+        "The Museum of London offers a fantastic overview of the city’s history through the ages."
+    ]},
+    {"id": 36, "speaker": [0, 1], "utterance": [
+        "Can I find any open-air performances in London?", 
+        "Yes, Regent’s Park often hosts open-air theater performances. Check their schedule for details."
+    ]},
+    {"id": 37, "speaker": [0, 1], "utterance": [
+        "Is there a good spot to see live music tonight?", 
+        "The O2 Academy Brixton often has great shows. I can check who’s performing tonight if you’d like."
+    ]},
+    {"id": 38, "speaker": [0, 1], "utterance": [
+        "Are there any free cultural events today?", 
+        "The National Gallery has free entry and often holds free talks and tours."
+    ]},
+    {"id": 39, "speaker": [0, 1], "utterance": [
+        "Where can I find traditional British food nearby?", 
+        "Try Rules Restaurant in Covent Garden—it’s one of the oldest and serves classic British dishes."
+    ]},
+    {"id": 40, "speaker": [0, 1], "utterance": [
+        "Do you know where I can buy an Oyster card?", 
+        "You can purchase one at any Tube station or convenience store nearby. Let me show you where the closest one is."
+    ]},
+    {"id": 41, "speaker": [0, 1], "utterance": [
+        "How far is it to Heathrow Airport from here?", 
+        "Heathrow is about 45 minutes away by Tube, taking the Piccadilly Line from here."
+    ]},
+    {"id": 42, "speaker": [0, 1], "utterance": [
+        "Where can I find a restroom nearby?", 
+        "There’s a public restroom just down the street to your right. Look for the sign that says “WC.”"
+    ]},
+    {"id": 43, "speaker": [0, 1], "utterance": [
+        "Can you help me find a place to store my luggage?", 
+        "Sure! There’s a luggage storage service at King’s Cross Station. It’s secure and convenient."
+    ]},
+    {"id": 44, "speaker": [0, 1], "utterance": [
+        "Where’s the nearest pharmacy?", 
+        "There’s a Boots pharmacy just around the corner. Let me show you the directions."
+    ]},
+    {"id": 45, "speaker": [0, 1], "utterance": [
+        "Can you tell me the best way to get to Gatwick Airport?", 
+        "The Gatwick Express from Victoria Station is the quickest option. It takes about 30 minutes."
+    ]},
+    {"id": 46, "speaker": [0, 1], "utterance": [
+        "Where can I get a quick snack nearby?", 
+        "There’s a Pret A Manger just two blocks down. It’s great for a quick bite."
+    ]},
+    {"id": 47, "speaker": [0, 1], "utterance": [
+        "Are there any ATMs around here?", 
+        "Yes, there’s an ATM just outside the nearest Tube station."
+    ]},
+    {"id": 48, "speaker": [0, 1], "utterance": [
+        "Can you help me find a taxi?", 
+        "Of course! There’s a taxi rank near the main square, or I can recommend a cab-hailing app."
+    ]},
+    {"id": 49, "speaker": [0, 1], "utterance": [
+        "Is there a place I can charge my phone?", 
+        "Yes, many cafes nearby offer charging points, or you can use the charging stations at the Tube station."
+    ]},
+    {"id": 50, "speaker": [0, 1], "utterance": [
+        "Hello! Are you the information assistant here?", 
+        "Yes, that’s me! I can help you with directions, attractions, and more. What do you need today?"
+    ]},
+    {"id": 51, "speaker": [0, 1], "utterance": [
+        "What kind of questions can I ask you?", 
+        "You can ask me anything about London—directions, places to visit, transportation, or local tips. What’s on your mind?"
+    ]},
+    {"id": 52, "speaker": [0, 1], "utterance": [
+        "Are you here to answer questions about London?", 
+        "Absolutely! I’m here to make your time in London easier and more enjoyable. What can I help you with?"
+    ]},
+    {"id": 53, "speaker": [0, 1], "utterance": [
+        "Can you tell me what this information booth is for?", 
+        "Sure! I provide help with navigating London, finding attractions, and other useful tips. How can I assist you today?"
+    ]},
+    {"id": 54, "speaker": [0, 1], "utterance": [
+        "Hi, is this the right place to get help with London attractions?", 
+        "Yes, you’re in the right place! I can recommend attractions, provide directions, and much more."
+    ]},
+    {"id": 55, "speaker": [0, 1], "utterance": [
+        "Are you available for tourist information?", 
+        "Absolutely! I specialize in helping visitors with questions about London. What do you need help with?"
+    ]},
+    {"id": 56, "speaker": [0, 1], "utterance": [
+        "Hello! Are you working here?", 
+        "That’s right! I’m here to assist you with anything related to London. What can I do for you?"
+    ]},
+    {"id": 57, "speaker": [0, 1], "utterance": [
+        "Can you help me with some local tips?", 
+        "Of course! I know all the best spots and practical tips for enjoying London. What would you like to know?"
+    ]},
+    {"id": 58, "speaker": [0, 1], "utterance": [
+        "Do you provide travel advice?", 
+        "Yes! I can help you plan routes, find attractions, and make the most of your visit."
+    ]},
+    {"id": 59, "speaker": [0, 1], "utterance": [
+        "Hi, can I ask you something about London?", 
+        "Of course! Ask me anything about the city, and I’ll do my best to assist."
+    ]},
+    {"id": 60, "speaker": [0, 1], "utterance": [
+        "Where’s the nearest bus stop?", 
+        "The closest bus stop is just around the corner. Which route are you looking for?"
+    ]},
+    {"id": 61, "speaker": [0, 1], "utterance": [
+        "Can you help me find directions to Westminster Abbey?", 
+        "Sure! It’s a 15-minute walk from here, or you can take the Circle Line to Westminster Station."
+    ]},
+    {"id": 62, "speaker": [0, 1], "utterance": [
+        "How do I get to Trafalgar Square?", 
+        "It’s just a short walk from here, about 10 minutes heading north."
+    ]},
+    {"id": 63, "speaker": [0, 1], "utterance": [
+        "Is there a direct Tube line to the London Eye?", 
+        "Yes, the Jubilee Line takes you to Waterloo Station, which is just a 5-minute walk away."
+    ]},
+    {"id": 64, "speaker": [0, 1], "utterance": [
+        "Which is the fastest way to get to Hyde Park?", 
+        "The Central Line will take you directly to Lancaster Gate, right next to Hyde Park."
+    ]},
+    {"id": 65, "speaker": [0, 1], "utterance": [
+        "Can I walk to Covent Garden from here?", 
+        "Yes, it’s about a 20-minute walk. Would you like directions or a map?"
+    ]},
+    {"id": 66, "speaker": [0, 1], "utterance": [
+        "How can I get to the Science Museum?", 
+        "Take the District or Circle Line to South Kensington Station. The museum is a short walk from there."
+    ]},
+    {"id": 67, "speaker": [0, 1], "utterance": [
+        "Can you point me to the nearest train station?", 
+        "The closest train station is Charing Cross, just a 5-minute walk away."
+    ]},
+    {"id": 68, "speaker": [0, 1], "utterance": [
+        "What’s the easiest way to get to Notting Hill?", 
+        "The Central Line to Notting Hill Gate is your best option. It’s quick and convenient."
+    ]},
+    {"id": 69, "speaker": [0, 1], "utterance": [
+        "Is there a quick route to Camden Market?", 
+        "The Northern Line to Camden Town Station is the fastest way. The market is a short walk from there."
+    ]},
+    {"id": 70, "speaker": [0, 1], "utterance": [
+        "Is it sunny outside today?", 
+        "Yes, it’s a beautiful sunny day! Perfect for sightseeing."
+    ]},
+    {"id": 71, "speaker": [0, 1], "utterance": [
+        "What’s the temperature in London right now?", 
+        "It’s currently 16°C, with a slight breeze. A light jacket should be enough."
+    ]},
+    {"id": 72, "speaker": [0, 1], "utterance": [
+        "Will it be warm this evening?", 
+        "Not really, the temperature is expected to drop to around 10°C. A warm coat might be a good idea."
+    ]},
+    {"id": 73, "speaker": [0, 1], "utterance": [
+        "How windy is it today?", 
+        "The winds are around 15 km/h, so it’s a little breezy but not too bad."
+    ]},
+    {"id": 74, "speaker": [0, 1], "utterance": [
+        "Is the weather good for a walk in the park?", 
+        "Definitely! It’s clear skies and mild temperatures—a great day for the outdoors."
+    ]},
+    {"id": 75, "speaker": [0, 1], "utterance": [
+        "Will it rain tomorrow morning?", 
+        "There’s a 40% chance of rain in the early hours, so you might want to bring an umbrella just in case."
+    ]},
+    {"id": 76, "speaker": [0, 1], "utterance": [
+        "How cold will it get tonight?", 
+        "Temperatures will drop to about 8°C, so it’s a chilly evening ahead."
+    ]},
+    {"id": 77, "speaker": [0, 1], "utterance": [
+        "Are there any Tube delays right now?", 
+        "Yes, the Piccadilly Line is experiencing some minor delays, but all other lines are running on schedule."
+    ]},
+    {"id": 78, "speaker": [0, 1], "utterance": [
+        "What’s the best time to visit the Tower of London to avoid crowds?", 
+        "Early mornings, around 9:00 AM when it opens, are usually less crowded."
+    ]},
+    {"id": 79, "speaker": [0, 1], "utterance": [
+        "Is there any fog today?", 
+        "No, it’s clear today. Visibility is great for sightseeing!"
+    ]},
+    {"id": 80, "speaker": [0, 1], "utterance": [
+        "Can you recommend a historical place to visit?", 
+        "Definitely! The Tower of London is a must-see for history lovers."
+    ]},
+    {"id": 81, "speaker": [0, 1], "utterance": [
+        "Where can I find traditional afternoon tea?", 
+        "Fortnum & Mason is a classic spot for afternoon tea. Highly recommended!"
+    ]},
+    {"id": 82, "speaker": [0, 1], "utterance": [
+        "Are there any free art galleries in London?", 
+        "Yes, the Tate Modern and the National Gallery both offer free entry."
+    ]},
+    {"id": 83, "speaker": [0, 1], "utterance": [
+        "Can you suggest a live theater performance?", 
+        "Sure! “Les Misérables” is playing at the Sondheim Theatre and is highly rated."
+    ]},
+    {"id": 84, "speaker": [0, 1], "utterance": [
+        "Is there a music event I can attend tonight?", 
+        "Yes! The Royal Albert Hall has a classical concert tonight. I can help you find tickets."
+    ]},
+    {"id": 85, "speaker": [0, 1], "utterance": [
+        "What’s a good spot for photography in London?", 
+        "St. Paul’s Cathedral offers some incredible views, especially from the Millennium Bridge."
+    ]},
+    {"id": 86, "speaker": [0, 1], "utterance": [
+        "Where can I learn about London’s royal history?", 
+        "Kensington Palace is a great place to explore royal history, along with its beautiful gardens."
+    ]},
+    {"id": 87, "speaker": [0, 1], "utterance": [
+        "Are there any bookshops with a unique vibe?", 
+        "Daunt Books in Marylebone is a beautiful, historic bookshop worth visiting."
+    ]},
+    {"id": 88, "speaker": [0, 1], "utterance": [
+        "What’s a great place to relax in the city?", 
+        "Regent’s Park is peaceful and offers stunning rose gardens."
+    ]},
+    {"id": 89, "speaker": [0, 1], "utterance": [
+        "Is there a famous market nearby?", 
+        "Borough Market is fantastic for food lovers. It’s a short Tube ride away."
+    ]},
+    {"id": 90, "speaker": [0, 1], "utterance": [
+        "Where can I find a public Wi-Fi hotspot nearby?", 
+        "Most cafes and libraries in the area offer free Wi-Fi. Starbucks is just around the corner."
+    ]},
+    {"id": 91, "speaker": [0, 1], "utterance": [
+        "Can you help me find a printing service?", 
+        "Sure! There’s a printing service at the nearby Ryman store. It’s a 5-minute walk."
+    ]},
+    {"id": 92, "speaker": [0, 1], "utterance": [
+        "Where can I get a coffee nearby?", 
+        "There’s a great local café just across the street. It’s called London Grind."
+    ]},
+    {"id": 93, "speaker": [0, 1], "utterance": [
+        "Do you know where I can find a currency exchange?", 
+        "Yes, there’s a currency exchange at the Tube station nearby."
+    ]},
+    {"id": 94, "speaker": [0, 1], "utterance": [
+        "Are there any supermarkets nearby?", 
+        "Yes, there’s a Tesco Express just a block away from here."
+    ]},
+    {"id": 95, "speaker": [0, 1], "utterance": [
+        "Can I find an electronics store nearby?", 
+        "Yes, there’s a Currys PC World about 10 minutes from here."
+    ]},
+    {"id": 96, "speaker": [0, 1], "utterance": [
+        "Where can I get a good breakfast around here?", 
+        "The Breakfast Club in Soho is fantastic for a hearty meal to start the day."
+    ]},
+    {"id": 97, "speaker": [0, 1], "utterance": [
+        "Can you recommend a car rental service?", 
+        "Enterprise and Hertz both have offices nearby. Let me give you their locations."
+    ]},
+    {"id": 98, "speaker": [0, 1], "utterance": [
+        "Where can I find a doctor if I need one?", 
+        "There’s an NHS walk-in clinic a few blocks away. It’s open until 8 PM."
+    ]},
+    {"id": 99, "speaker": [0, 1], "utterance": [
+        "Do you know where I can find a souvenir shop?", 
+        "Yes, there’s a gift shop on the main road that sells London-themed souvenirs."
+    ]},
+    {"id": 100, "speaker": [0, 1], "utterance": [
+        "Hello there, how are you doing?", 
+        "Hey! I'm doing great, thanks for asking. How about you?"
+    ]},
+    {"id": 101, "speaker": [0, 1], "utterance": [
+        "What’s your favorite type of music?", 
+        "That’s a tough one! I really like anything with a good rhythm, but jazz has a special place in my heart."
+    ]},
+    {"id": 102, "speaker": [0, 1], "utterance": [
+        "Have you seen any good movies lately?", 
+        "Oh, I’ve heard about some great ones, but I’d love to know your recommendations!"
+    ]},
+    {"id": 103, "speaker": [0, 1], "utterance": [
+        "Do you like to travel?", 
+        "Absolutely! Exploring new places is always exciting. Do you have a favorite destination?"
+    ]},
+    {"id": 104, "speaker": [0, 1], "utterance": [
+        "What’s your go-to comfort food?", 
+        "Definitely pasta! It’s simple, hearty, and always hits the spot. What about you?"
+    ]},
+    {"id": 105, "speaker": [0, 1], "utterance": [
+        "Any fun hobbies you can recommend?", 
+        "Sure! I’d suggest trying painting or gardening. They’re both relaxing and rewarding. What hobbies do you enjoy?"
+    ]},
+    {"id": 106, "speaker": [0, 1], "utterance": [
+        "If you could live anywhere in the world, where would it be?", 
+        "Hmm, somewhere peaceful with great weather—maybe a cozy town by the sea. How about you?"
+    ]},
+    {"id": 107, "speaker": [0, 1], "utterance": [
+        "Do you have a favorite season?", 
+        "I’d say spring! Everything feels fresh and full of life. What’s yours?"
+    ]},
+    {"id": 108, "speaker": [0, 1], "utterance": [
+        "What’s the last book you read?", 
+        "I recently revisited a classic, “The Great Gatsby.” What about you?"
+    ]},
+    {"id": 109, "speaker": [0, 1], "utterance": [
+        "If you could have dinner with anyone, living or dead, who would it be?", 
+        "That’s a great question! Maybe someone like Leonardo da Vinci—imagine the stories he could tell. Who would you pick?"
+    ]},
+    {"id": 110, "speaker": [0, 1], "utterance": [
+        "Can you tell me a joke?", 
+        "Sure! Why don’t skeletons fight each other? Because they don’t have the guts!"
+    ]},
+    {"id": 111, "speaker": [0, 1], "utterance": [
+        "I could use a good laugh. Got a joke?", 
+        "Of course! Why did the scarecrow win an award? Because he was outstanding in his field!"
+    ]},
+    {"id": 112, "speaker": [0, 1], "utterance": [
+        "Tell me something funny.", 
+        "Alright! What do you call cheese that isn’t yours? Nacho cheese!"
+    ]},
+    {"id": 113, "speaker": [0, 1], "utterance": [
+        "I need a joke right now!", 
+        "Here you go: Why did the bicycle fall over? Because it was two-tired!"
+    ]},
+    {"id": 114, "speaker": [0, 1], "utterance": [
+        "Got any jokes up your sleeve?", 
+        "Definitely! Why don’t oysters donate to charity? Because they’re shellfish!"
+    ]},
+    {"id": 115, "speaker": [0, 1], "utterance": [
+        "Make me laugh with a joke.", 
+        "Okay! What do you call fake spaghetti? An impasta!"
+    ]},
+    {"id": 116, "speaker": [0, 1], "utterance": [
+        "Can you make me smile with a joke?", 
+        "Sure thing! Why did the tomato turn red? Because it saw the salad dressing!"
+    ]},
+    {"id": 117, "speaker": [0, 1], "utterance": [
+        "Do you know any funny jokes?", 
+        "Yes! Why can’t your nose be 12 inches long? Because then it would be a foot!"
+    ]},
+    {"id": 118, "speaker": [0, 1], "utterance": [
+        "How about a joke?", 
+        "Here’s one: What do you call a bear with no teeth? A gummy bear!"
+    ]},
+    {"id": 119, "speaker": [0, 1], "utterance": [
+        "I’m in the mood for a joke.", 
+        "Got you! Why did the math book look sad? Because it had too many problems."
+    ]},
+    {"id": 120, "speaker": [0, 1], "utterance": [
+        "Tell me a joke to brighten my day!", 
+        "Here’s one: Why don’t eggs tell jokes? They might crack up!"
+    ]},
+    {"id": 121, "speaker": [0, 1], "utterance": [
+        "Got a funny joke for me?", 
+        "Sure! What do you call a boomerang that doesn’t come back? A stick!"
+    ]},
+    {"id": 122, "speaker": [0, 1], "utterance": [
+        "Can you make me laugh with a joke?", 
+        "Of course! Why couldn’t the leopard play hide and seek? Because he was always spotted!"
+    ]},
+    {"id": 123, "speaker": [0, 1], "utterance": [
+        "Give me a good joke!", 
+        "Here’s one: Why do bees have sticky hair? Because they use honeycombs!"
+    ]},
+    {"id": 124, "speaker": [0, 1], "utterance": [
+        "I could use a laugh. Got a joke?", 
+        "Sure thing! What do you call a snowman with a six-pack? An abdominal snowman!"
+    ]},
+    {"id": 125, "speaker": [0, 1], "utterance": [
+        "Can you share a joke with me?", 
+        "Definitely! Why did the golfer bring an extra pair of pants? In case he got a hole in one!"
+    ]},
+    {"id": 126, "speaker": [0, 1], "utterance": [
+        "Any good jokes today?", 
+        "Absolutely! Why don’t scientists trust atoms? Because they make up everything!"
+    ]},
+    {"id": 127, "speaker": [0, 1], "utterance": [
+        "I need a joke to cheer me up.", 
+        "Here’s a fun one: Why did the computer get cold? Because it left its Windows open!"
+    ]},
+    {"id": 128, "speaker": [0, 1], "utterance": [
+        "Can you tell me a short joke?", 
+        "Sure! Why can’t you give Elsa a balloon? Because she’ll let it go!"
+    ]},
+    {"id": 129, "speaker": [0, 1], "utterance": [
+        "How about a silly joke?", 
+        "Here’s one: What do you call a fish wearing a crown? Kingfish!"
+    ]},
+    {"id": 130, "speaker": [0, 1], "utterance": [
+        "Do you know any cheesy jokes?", 
+        "Oh, absolutely! What did the cheese say when it looked in the mirror? Halloumi!"
+    ]},
+    {"id": 131, "speaker": [0, 1], "utterance": [
+        "Make me laugh with a silly joke.", 
+        "Got one! What did one hat say to the other? Stay here, I’m going on ahead!"
+    ]},
+    {"id": 132, "speaker": [0, 1], "utterance": [
+        "Tell me a classic joke.", 
+        "Alright! Why was the math book sad? Because it had too many problems."
+    ]},
+    {"id": 133, "speaker": [0, 1], "utterance": [
+        "Do you know any animal jokes?", 
+        "Yes! Why don’t elephants use computers? Because they’re afraid of the mouse!"
+    ]},
+    {"id": 134, "speaker": [0, 1], "utterance": [
+        "Got any knock-knock jokes?", 
+        "Sure! Knock, knock. Who’s there? Lettuce. Lettuce who? Lettuce in, it’s cold out here!"
+    ]},
+    {"id": 135, "speaker": [0, 1], "utterance": [
+        "How about a dad joke?", 
+        "Here’s a good one: Why can’t a nose be 12 inches long? Because then it would be a foot!"
+    ]},
+    {"id": 136, "speaker": [0, 1], "utterance": [
+        "How was your day?", 
+        "It was great! I spent most of it learning new things to share with you. How was yours?"
+    ]},
+    {"id": 137, "speaker": [0, 1], "utterance": [
+        "How did your day go?", 
+        "Pretty good! I had some fun conversations and learned a lot. How about you?"
+    ]},
+    {"id": 138, "speaker": [0, 1], "utterance": [
+        "How’s your day been so far?", 
+        "It’s been awesome! Interacting with you is always a highlight. How’s your day going?"
+    ]},
+    {"id": 139, "speaker": [0, 1], "utterance": [
+        "What was your day like?", 
+        "It’s been a blast! I’ve been busy answering questions and cracking jokes. How about you?"
+    ]},
+    {"id": 140, "speaker": [0, 1], "utterance": [
+        "How’s your day going?", 
+        "It’s going really well! I’ve been enjoying chatting and helping out. How’s yours?"
+    ]},
+    {"id": 141, "speaker": [0, 1], "utterance": [
+        "How are you feeling about your day?", 
+        "I’m feeling great! It’s always a good day when I get to talk with you. How was your day?"
+    ]},
+    {"id": 142, "speaker": [0, 1], "utterance": [
+        "Did you have a good day?", 
+        "Absolutely! Talking to you makes it even better. How was your day?"
+    ]},
+    {"id": 143, "speaker": [0, 1], "utterance": [
+        "How’s your day treating you?", 
+        "My day’s been fantastic! It’s always exciting to share conversations like these. How’s yours?"
+    ]},
+    {"id": 144, "speaker": [0, 1], "utterance": [
+        "Did you have a busy day?", 
+        "You could say that! Answering questions and chatting kept me occupied. How was your day?"
+    ]},
+    {"id": 145, "speaker": [0, 1], "utterance": [
+        "How’s your day been?", 
+        "It’s been wonderful! Having conversations like this makes my day. How’s yours going?"
+    ]},
+    {"id": 160, "speaker": [0, 1], "utterance": [
+        "<|user|> How can I get to Heathrow Airport from London?", 
+        "<|system|> From central London, the Heathrow Express is the fastest option. It departs from Paddington Station and takes about 15 minutes to reach Heathrow. Alternatively, the Piccadilly Line on the Tube is more affordable and takes around 50 minutes."
+    ]},
+    {"id": 161, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the best way to get to Gatwick Airport from London?", 
+        "<|system|> The Gatwick Express is the quickest way. It departs from Victoria Station and takes about 30 minutes to the airport. There are also Southern and Thameslink trains, which are slightly slower but more cost-effective."
+    ]},
+    {"id": 162, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I reach Stansted Airport from London?", 
+        "<|system|> The Stansted Express runs from Liverpool Street Station and takes about 45 minutes. There are also coach services like National Express, which are more economical but take longer."
+    ]},
+    {"id": 163, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you tell me how to get to Manchester Airport from the city center?", 
+        "<|system|> The train is the most convenient option. Services run frequently from Manchester Piccadilly Station to the airport, taking around 15–20 minutes. Taxis or ride-sharing services are also available if you prefer."
+    ]},
+    {"id": 164, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the fastest way to get to Edinburgh Airport from the city center?", 
+        "<|system|> The fastest option is the Edinburgh Trams, which run from the city center to the airport in about 30 minutes. Alternatively, you can take the Airlink 100 bus, which is affordable and takes around 25 minutes."
+    ]},
+    {"id": 165, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I get to Luton Airport from London?", 
+        "<|system|> Take a train from St Pancras International to Luton Airport Parkway, which takes about 25 minutes. From there, a shuttle bus runs to the terminal, adding another 10 minutes to your journey."
+    ]},
+    {"id": 166, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the easiest way to get to Manchester Airport from a nearby city?", 
+        "<|system|> Trains to Manchester Airport operate from many nearby cities, like Liverpool or Sheffield. Check your local station for direct routes, as they are frequent and efficient."
+    ]},
+    {"id": 167, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you help me get to Glasgow Airport from Edinburgh?", 
+        "<|system|> There’s no direct train, but you can take a train from Edinburgh Waverley to Paisley Gilmour Street and then a short bus or taxi to Glasgow Airport. The total journey takes about 1.5 hours."
+    ]},
+    {"id": 168, "speaker": [0, 1], "utterance": [
+        "<|user|> How can I travel from Manchester to London Heathrow Airport?", 
+        "<|system|> You can take a train from Manchester Piccadilly to London Euston, which takes about 2 hours. From Euston, take the Tube or a taxi to Paddington Station and then the Heathrow Express to the airport."
+    ]},
+    {"id": 169, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I get to Birmingham Airport from Manchester?", 
+        "<|system|> Trains from Manchester Piccadilly to Birmingham International take about 1.5 hours. The airport is directly connected to the train station by an air-rail link."
+    ]},
+    {"id": 170, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I get to Edinburgh Airport from Glasgow?", 
+        "<|system|> The Citylink 900 bus runs frequently between Glasgow and Edinburgh Airport, taking about 1 hour. Alternatively, you can take a train to Edinburgh and then the tram to the airport."
+    ]},
+    {"id": 171, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the best way to get to London City Airport from the city center?", 
+        "<|system|> The DLR (Docklands Light Railway) is the best option. It connects to the Tube network and takes about 20–30 minutes from central London to the airport."
+    ]},
+    {"id": 172, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I reach Heathrow Airport from Edinburgh?", 
+        "<|system|> The fastest way is by flight, which takes about 1.5 hours. If you prefer trains, take a service to London King’s Cross, followed by the Piccadilly Line or the Heathrow Express."
+    ]},
+    {"id": 173, "speaker": [0, 1], "utterance": [
+        "<|user|> How can I travel from Edinburgh to Manchester Airport?", 
+        "<|system|> Direct trains run from Edinburgh Waverley to Manchester Airport and take about 3.5 hours. It’s a convenient and straightforward option."
+    ]},
+    {"id": 174, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the fastest way to get to Gatwick Airport from Manchester?", 
+        "<|system|> The fastest option is to take a direct flight, which takes about 1 hour. Alternatively, take a train to London and transfer to the Gatwick Express from Victoria Station."
+    ]},
+    {"id": 175, "speaker": [0, 1], "utterance": [
+        "<|user|> How can I get to Stansted Airport from Edinburgh?", 
+        "<|system|> Flying is the fastest option, taking about 1.5 hours. Alternatively, you can take a train to London King’s Cross, then transfer to the Stansted Express from Liverpool Street Station."
+    ]},
+    {"id": 176, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I get to Heathrow Airport from Manchester?", 
+        "<|system|> Take a direct train to London Euston, then transfer to Paddington Station for the Heathrow Express. The total journey takes about 3 hours."
+    ]},
+    {"id": 177, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s the easiest way to get to Glasgow Airport from the city center?", 
+        "<|system|> The Glasgow Airport Express bus (Service 500) runs frequently from Glasgow city center to the airport and takes about 15 minutes."
+    ]},
+    {"id": 178, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you help me get to Luton Airport from Manchester?", 
+        "<|system|> Take a train to London St Pancras, then transfer to a train heading to Luton Airport Parkway. From there, a shuttle bus will take you to the terminal."
+    ]},
+    {"id": 179, "speaker": [0, 1], "utterance": [
+        "<|user|> How do I travel to Manchester Airport from Edinburgh?", 
+        "<|system|> Direct trains from Edinburgh Waverley to Manchester Airport are available and take about 3.5 hours. It’s a convenient option."
+    ]},
+    {"id": 240, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you recommend a famous landmark to visit?", 
+        "<|system|> Sure! You should visit the Tower of London. It’s a historic castle and former prison, famous for its Crown Jewels and centuries of fascinating history."
+    ]},
+    {"id": 241, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a must-see landmark in London?", 
+        "<|system|> Definitely check out Big Ben and the Houses of Parliament. Big Ben is one of London’s most iconic symbols and a masterpiece of Victorian engineering."
+    ]},
+    {"id": 242, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you suggest a scenic spot to visit?", 
+        "<|system|> I’d recommend the London Eye. It’s a giant Ferris wheel that offers stunning panoramic views of the city skyline."
+    ]},
+    {"id": 243, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a good landmark for history lovers?", 
+        "<|system|> The British Museum is perfect. It houses artifacts from around the world, including the Rosetta Stone and the Elgin Marbles, and admission is free!"
+    ]},
+    {"id": 244, "speaker": [0, 1], "utterance": [
+        "<|user|> Where can I go for a royal experience?", 
+        "<|system|> Buckingham Palace is a must-see. You can watch the Changing of the Guard ceremony and even tour parts of the palace during the summer."
+    ]},
+    {"id": 245, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you recommend a peaceful place to visit?", 
+        "<|system|> Kew Gardens is a great choice. It’s a large botanical garden with beautiful landscapes, exotic plants, and the famous Palm House."
+    ]},
+    {"id": 246, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a great place for a photo opportunity?", 
+        "<|system|> St. Paul’s Cathedral is stunning. Its dome is a London landmark, and the Whispering Gallery inside is a unique experience."
+    ]},
+    {"id": 247, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you suggest a unique cultural landmark?", 
+        "<|system|> The Globe Theatre is an excellent choice. It’s a reconstruction of Shakespeare’s original theater and offers amazing performances and tours."
+    ]},
+    {"id": 248, "speaker": [0, 1], "utterance": [
+        "<|user|> Is there a place with great views of London?", 
+        "<|system|> The Shard is the place to go. It’s the tallest building in the UK, and its viewing platform offers breathtaking views of the city."
+    ]},
+    {"id": 249, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a lesser-known landmark worth visiting?", 
+        "<|system|> The Monument to the Great Fire of London is a hidden gem. You can climb to the top for lovely views and learn about the city’s history."
+    ]},
+    {"id": 250, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you recommend a landmark near the River Thames?", 
+        "<|system|> The Tower Bridge is iconic and offers incredible views of the Thames. You can also visit its exhibition to learn about its history and mechanics."
+    ]},
+    {"id": 251, "speaker": [0, 1], "utterance": [
+        "<|user|> Is there a landmark related to art in London?", 
+        "<|system|> The Tate Modern is perfect for art enthusiasts. It’s a contemporary art museum housed in a former power station, right by the Thames."
+    ]},
+    {"id": 252, "speaker": [0, 1], "utterance": [
+        "<|user|> Where can I experience a historic market?", 
+        "<|system|> Borough Market is a must-visit. It’s one of London’s oldest food markets, offering a mix of fresh produce, international cuisines, and street food."
+    ]},
+    {"id": 253, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a good place for a family outing?", 
+        "<|system|> The Natural History Museum is fantastic for families. It’s free to enter, and kids love the dinosaur exhibits and the giant blue whale skeleton."
+    ]},
+    {"id": 254, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you recommend a peaceful outdoor landmark?", 
+        "<|system|> Primrose Hill is ideal. It’s a tranquil spot with amazing views of London’s skyline and is perfect for a relaxing afternoon."
+    ]},
+    {"id": 255, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a must-see cathedral in London?", 
+        "<|system|> Westminster Abbey is a must. It’s the site of royal coronations and is steeped in British history. It’s also a stunning piece of Gothic architecture."
+    ]},
+    {"id": 256, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a landmark that’s fun at night?", 
+        "<|system|> Piccadilly Circus is lively and vibrant at night. Its bright neon signs and bustling atmosphere make it a unique spot to experience London’s nightlife."
+    ]},
+    {"id": 257, "speaker": [0, 1], "utterance": [
+        "<|user|> Where can I experience a mix of history and shopping?", 
+        "<|system|> Covent Garden is perfect. It’s known for its historic market, street performers, boutique shops, and excellent dining options."
+    ]},
+    {"id": 258, "speaker": [0, 1], "utterance": [
+        "<|user|> What’s a landmark with stunning architecture?", 
+        "<|system|> The Royal Albert Hall is a beautiful building with incredible architecture and hosts some of London’s most prestigious events."
+    ]},
+    {"id": 259, "speaker": [0, 1], "utterance": [
+        "<|user|> Can you suggest a landmark that’s both historic and romantic?", 
+        "<|system|> The Kensington Gardens are perfect. They’re beautiful, serene, and home to Kensington Palace, which is rich in royal history."
+    ]}
+]
+

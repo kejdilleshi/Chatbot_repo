@@ -21,10 +21,6 @@ set_seed(args.seed)
 # Save results if necessary
 SR = SaveResults(args)
 
-# File directory for samuel's blog data
-#  
-file_dir = 'Data/samuel_data.txt'
-
 def print_gpu_utilization():
     nvmlInit()
     handle = nvmlDeviceGetHandleByIndex(0)
@@ -109,12 +105,6 @@ def preprocess_data_balanced(examples):
 
     dialogues = []
     block=1
-    # Read the text file once
-    with open(file_dir, 'r', encoding='utf-8') as file:
-        full_text = file.read()
-
-    # Tokenize the text once
-    tokens = tokenizer(full_text)['input_ids']
     for dialogue in examples['turns']:
         single_list=extract_singleturn(dialogue)
         dialogues.extend(single_list)
@@ -122,16 +112,10 @@ def preprocess_data_balanced(examples):
         if block<len(data):
             general_list=extract_general(block=block,data=data)
             dialogues.extend(general_list)
-        if block%1==0:
+        if block%2==0:
             multi_list=extract_multiturn(dialogue,n_turn=8)
             dialogues.append(multi_list)
-            # sam_text = extract_text_segment(tokens, 256, block, tokenizer)
-            # dialogues.append(sam_text)
-        if block%3==0:
-            sam_text = extract_text_segment(tokens, 256, block, tokenizer)
-            dialogues.append(sam_text)
-        #     multi_list=extract_multiturn(dialogue,n_turn=8)
-        #     dialogues.append(multi_list)
+
             
         block+=1
    
@@ -177,7 +161,7 @@ logging.set_verbosity_error()
 
 training_args = TrainingArguments(
     output_dir=args.results_dir,
-    max_steps=5000,
+    max_steps=2000,
     optim="adamw_torch",
     learning_rate=args.learning_rate,
     weight_decay=args.weight_decay,
